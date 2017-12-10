@@ -384,6 +384,9 @@ openshift_disable_check=disk_availability,memory_availability
 openshift_router_selector='type=infra'
 openshift_registry_selector='type=infra'
 
+#template_service_broker_remove=True
+template_service_broker_install=False
+
 openshift_master_cluster_method=native
 openshift_master_cluster_hostname=$MASTERPUBLICIPHOSTNAME
 openshift_master_cluster_public_hostname=$MASTERPUBLICIPHOSTNAME
